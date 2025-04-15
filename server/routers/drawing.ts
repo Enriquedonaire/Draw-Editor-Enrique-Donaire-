@@ -1,7 +1,7 @@
 import { z } from 'zod';
 import { router, publicProcedure } from '../trpc';
 
-// In-memory store for demo purposes
+
 let drawingStore: any = null;
 
 export const drawingRouter = router({
