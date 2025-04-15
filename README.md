@@ -11,7 +11,7 @@ A simple drawing editor built with Next.js, tldraw, and tRPC.
 
 ## Additional Features
 - From text to shape feature
-- Using Tldrwa-ai 
+- Using @tldraw/ai
 
 ## Tech Stack
 
