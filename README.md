@@ -9,6 +9,10 @@ A simple drawing editor built with Next.js, tldraw, and tRPC.
 - Server-side persistence with tRPC
 - Modern UI with Tailwind CSS and shadcn/ui
 
+## Additional Features
+- From text to shape feature
+- Using Tldrwa-ai 
+
 ## Tech Stack
 
 - Next.js

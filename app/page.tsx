@@ -114,7 +114,7 @@ export default function EditorPage() {
           type="text"
           value={prompt}
           onChange={(e) => setPrompt(e.target.value)}
-          placeholder="Type 'square', 'circle', or 'triangle'"
+          placeholder="Type square, circle, or triangle"
           className="border rounded px-2 py-1"
         />
         <Button
