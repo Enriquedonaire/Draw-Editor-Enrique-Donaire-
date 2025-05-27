@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Square, MessageSquare } from "lucide-react";
 import { trpc } from "@/utils/trpc";
+import Image from "next/image";
 
 export default function EditorPage() {
   const [editor, setEditor] = useState<any>(null);
@@ -128,7 +129,7 @@ export default function EditorPage() {
           </Button>
         </div>
         <div className="flex items-center" style={{marginRight: '1.5rem'}}>
-          <img src="/EgoStudio.png" alt="EgoStudio logo" style={{height:38}} />
+          <Image src="/EgoStudio.png" alt="EgoStudio logo" style={{height:38}} />
           <span style={{fontWeight:'bold',fontSize:'1.5rem', marginLeft: '0.5rem', background: 'linear-gradient(90deg, #c61e80 0%, rgba(0, 204, 255, 1) 100%)', WebkitBackgroundClip: 'text', color: 'transparent'}}>EgoStudio</span>
         </div>
       </div>
