@@ -10,5 +10,3 @@ export const POST = (req: Request) =>
   });
 
 export const GET = POST;
-
-export const dynamic = 'force-dynamic';
