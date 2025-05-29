@@ -101,8 +101,8 @@ export default function EditorPage() {
   };
 
   return (
-    <div className="h-screen w-full flex flex-col overflow-hidden">
-      <div className="flex items-center gap-2 p-2 border-b justify-between">
+    <div className="h-screen w-full flex flex-col mt-[-58px] overflow-y-hidden">
+      <div className="flex items-center gap-2 p-0 border-b justify-between min-h-0" style={{paddingTop: 0, paddingBottom: 0, marginTop: 0, minHeight: 0, height: '56px'}}>
         <div className="flex items-center gap-2">
           <Button
             onClick={addSquare}
@@ -128,9 +128,12 @@ export default function EditorPage() {
             Generate
           </Button>
         </div>
-        <div className="flex items-center" style={{marginRight: '1.5rem'}}>
-          <Image src="/EgoStudio.png" alt="EgoStudio logo" style={{height:38}} />
-          <span style={{fontWeight:'bold',fontSize:'1.5rem', marginLeft: '0.5rem', background: 'linear-gradient(90deg, #c61e80 0%, rgba(0, 204, 255, 1) 100%)', WebkitBackgroundClip: 'text', color: 'transparent'}}>EgoStudio</span>
+        <div className="flex items-center gap-2 mr-6" style={{ marginTop: 0 }}>
+          <Image src="/EgoStudio.png" alt="EgoStudio logo" width={48} height={48} />
+          <div className="flex flex-col">
+            <span style={{fontWeight:'bold',fontSize:'1.2rem', background: 'linear-gradient(90deg, #d11081 0%, rgba(0, 204, 255, 1) 100%)', WebkitBackgroundClip: 'text', color: 'transparent'}}>EgoStudio</span>
+            <span style={{fontSize:'0.8rem', background: 'linear-gradient(90deg, #4a4a4a 0%, #9a9a9a 100%)', WebkitBackgroundClip: 'text', color: 'transparent'}}>Drawing Editor</span>
+          </div>
         </div>
       </div>
       <div className="flex-1 min-h-0">
